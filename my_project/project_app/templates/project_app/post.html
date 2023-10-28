@@ -1,0 +1,22 @@
+{% extends 'project_app/base.html' %}
+
+{% block content %}
+<div style="width: 100%; height: 100px;">
+    <div style="text-align: center;">
+        <h1>{{ posts.first_name }} {{ posts.last_name}}</h1>
+    </div>
+</div>
+{% if posts.photo_person %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class=""><img src="{{posts.photo_person.url}}" class="img-responsive" width="400px"></div>
+        </div>
+        <div class="col">
+            <div class=""><img src="{{posts.photo_family.url}}" class="img-responsive" width="400px"></div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{{posts.background|linebreaks}}
+{% endblock %}

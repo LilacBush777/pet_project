@@ -1,0 +1,66 @@
+/* Apply some basic styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: url('project_app/images/12.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Style the title element */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Style the list of people */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style each person's container */
+li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the person's first name */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+/* Style the person's last name */
+h2:last-child {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #777;
+}
+
+/* Style the person's background */
+p {
+    margin-top: 10px;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* Add a separator line between each person */
+hr {
+    margin: 15px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+
+
+
+
